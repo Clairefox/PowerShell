@@ -1,2 +1,2 @@
 # PowerShell
-A collection of PowerShell scripts and modules I've created.
+A collection of my PowerShell scripts and modules.
