@@ -33,7 +33,7 @@ function Convert-PDF () {
         [string]$file
     )
 
-    #Add-Type -Path "C:\Runbook Files\Modules\Ferguson.Automation.PDF\itextsharp.dll" -PassThru | Select-Object -ExpandProperty Assembly | Select-Object -ExpandProperty FullName -Unique
+    #Add-Type -Path "C:\...\itextsharp.dll" -PassThru | Select-Object -ExpandProperty Assembly | Select-Object -ExpandProperty FullName -Unique
 
     if (Test-Path $file) {
         $pdfReader = New-Object iTextSharp.text.pdf.PdfReader -ArgumentList $file
