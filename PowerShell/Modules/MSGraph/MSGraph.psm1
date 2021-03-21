@@ -16,7 +16,7 @@
 
         .NOTES
         Example Variables:
-            $Tenant = "mydigitalspace.onmicrosoft.com"
+            $Tenant = "" 
 
             $Client = Get-AutomationPSCredential -Name "SpnName"
             $ClientId = $Client.GetNetworkCredential().UserName
